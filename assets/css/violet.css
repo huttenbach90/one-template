@@ -1,0 +1,81 @@
+.btn-primary {
+  border-color: #712777!important;
+}
+.c-primary,
+.ch-primary:hover,
+.ch-primary:focus,
+.ch-primary:active,
+.slick-prev:before,
+.comments-area a,
+.comments-area a:hover,
+.comments-area a:focus,
+.comments-area a:active {
+	color: #712777!important;
+}
+
+#news_slider .nav-tabs .nav-link.active:after {
+  border-color: transparent transparent transparent #712777!important;
+}
+.btn-primary,
+.bg-primary,
+#news_slider .nav-tabs .nav-link.active,
+#calendar .slick-slide:before,
+.icon-image:hover a:before,
+.post-type-archive-clanky .icon-image.icon-articles a:before,
+.post-type-archive-video .icon-image.icon-video a:before,
+.post-type-archive-rozhovory .icon-image.icon-interview a:before,
+.post-type-archive-akce .icon-image.icon-actions a:before,
+.post-type-archive-aktuality .icon-image.icon-news a:before,
+#wp-submit {
+  background-color: #712777!important;
+}
+#calendar .circle {
+  border: 2px solid #712777;
+}
+#wp-submit {
+  border: 1px solid #622167!important;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active,
+.btn-primary:not(:disabled):not(.disabled).active, 
+.btn-primary:not(:disabled):not(.disabled):active, 
+.show>.btn-primary.dropdown-toggle,
+.btn-primary.disabled, 
+.btn-primary:disabled {
+	background-color: #622167;
+	border-color: #622167;
+}
+.icon-video a:before {
+	background-image: url("../../images/icons/video-violet.png");
+}
+.icon-interview a:before {
+	background-image: url("../../images/icons/rozhovory-violet.png");
+}
+.icon-articles a:before {
+	background-image: url("../../images/icons/clanky-violet.png");
+}
+.icon-actions a:before {
+	background-image: url("../../images/icons/akce-violet.png");
+}
+.single-video h1.post-title:before {
+	background-image: url('../../images/icons/video-c-violet.png');
+}
+.single-akce h1.post-title:before {
+	background-image: url('../../images/icons/akce-c-violet.png');
+}
+.single-rozhovory h1.post-title:before {
+	background-image: url('../../images/icons/rozhovory-c-violet.png');
+}
+.single-clanky h1.post-title:before {
+	background-image: url('../../images/icons/clanky-c-violet.png');
+}
+@media (max-width: 991px) {
+  .navbar:after,
+  #navigation {
+    background: #712777!important;
+  }
+  #navigation:before {
+    border-bottom: 15px solid #712777!important;
+  }
+}
